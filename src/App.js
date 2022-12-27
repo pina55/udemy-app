@@ -1,11 +1,9 @@
-import NewComponentExpenses from "./components/NewComponentExpenses";
+import React from "react";
+import NewComponentExpenses from "./components/Expenses/NewComponentExpenses";
+import { expenses } from "./expenses";
 function App() {
 
-  const expenses = [
-    { title: 'Car Insurance', amount: 293.55, date: new Date(2021, 4, 28) },
-    { title: 'Flight Tickets', amount: 355.55, date: new Date(2021, 6, 11) },
-    { title: 'Sunglass', amount: 144.50, date: new Date(2021, 8, 2) }
-  ]
+
   return (
     <div>
 
